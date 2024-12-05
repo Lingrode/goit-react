@@ -1,6 +1,6 @@
 .profile {
   max-width: 400px;
-  margin: 50px auto 0;
+  margin: 50px auto 80px;
   border: 2px solid #000;
   border-radius: 8px;
   overflow: hidden;
@@ -29,18 +29,18 @@
   margin-bottom: 15px;
 }
 
-p:not(.fullname) {
+.profile__wrapper p:not(.fullname) {
   color: #555555;
 }
 
-ul {
+.profile ul {
   display: flex;
   justify-content: space-evenly;
   border-top: 2px solid #5a5a5a;
   background-color: #cecece;
 }
 
-ul li {
+.profile ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,11 +48,11 @@ ul li {
   width: calc(400px / 3);
 }
 
-ul li:nth-child(2) {
+.profile ul li:nth-child(2) {
   border-left: 2px solid #5a5a5a;
   border-right: 2px solid #5a5a5a;
 }
 
-li span:last-child {
+.profile li span:last-child {
   font-weight: 700;
 }
